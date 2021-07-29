@@ -106,7 +106,8 @@
   pdfsubject={},
   pdfkeywords={}
 }
-
+% Needed to handle graphics
+\RequirePackage{pgfplots} 
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
