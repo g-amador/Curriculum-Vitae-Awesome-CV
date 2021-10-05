@@ -18,9 +18,9 @@ A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) f
 
 You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume.pdf)
 
-| Page. 1 | Page. 2 | Page. 3 | 
-|:---:|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png) | 
+| Page. 1 | Page. 2 | Page. 3 | Page. 4 |
+|:---:|:---:|:---:|:---:|
+| [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-3.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-3.png) |
 
 #### Cover letter
 
