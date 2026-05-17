@@ -13,7 +13,7 @@ My personal Curriculum Vitae (CV) made using Overleaf and several Overleaf CV te
 
 #### Curriculum Vitae
 
-You can see the [PDF](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/cv.pdf)
+You can see the [PDF](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/CV.pdf)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
