@@ -1,8 +1,5 @@
-# Awesome CV [![Example](https://img.shields.io/badge/example-pdf-green.svg)]
-
-
-A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) for my own Résumé and generic cover letter.
-
+# Overleaf-CV
+My personal Curriculum Vitae (CV) made using Overleaf and several Overleaf CV templates.
 
 ## Table of contents
 
@@ -14,21 +11,13 @@ A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) f
 
 ## <a name="preview"></a>Preview
 
-#### Résumé
+#### Curriculum Vitae
 
-You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume.pdf)
+You can see the [PDF](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Main-CV/cv.pdf)
 
-| Page. 1 | Page. 2 | Page. 3 | Page. 4 |
-|:---:|:---:|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-3.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-3.png) |
-
-#### Cover letter
-
-You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter.pdf)
-
-| With Photo | Without Photo |
+| Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png) |
+| [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Main-CV/assets/sample/cv-1.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Main-CV/assets/sample/cv-1.png) | [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Main-CV/assets/sample/cv-2.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Main-CV/assets/sample/cv-2.png) |
 
 ## <a name="how-to-use">How to Use
 
@@ -59,10 +48,25 @@ This should result in the creation of ``{your-cv}.pdf``
 [**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
 
 
-## <a name="contact">Contact
+## 📄 <a name="contact">Contact & Usage Notice
 
-You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
+Curriculum Vitae in LaTex is released under the MIT License, which allows you to freely use, modify, distribute, 
+and build upon the project — including creating your own Curriculum Vitae in LaTeX.
 
-If you have any questions, feel free to e-mail me at [gmail](mailto://g.n.p.amador@gmail.com) and ask away.
+Please keep the following in mind:
 
-Good luck!
+- You may use this project freely in personal and professional contexts, provided the original license terms are respected.
+- You may not claim authorship of this repository or its original template design.
+- If you extend, adapt, or build upon this template, I would genuinely appreciate hearing about it — it’s always great to see how others improve and reuse the work.
+
+For full legal details, please refer to the **LICENSE** file included with the project.
+
+If you have questions, suggestions, or want to share your work, feel free to reach out:
+
+📧 **[g.n.p.amador@gmail.com](mailto:g.n.p.amador@gmail.com)**
+
+Good luck, and enjoy building your own CV!
+
+[Back to Table of contents](#toc)
+
+---
