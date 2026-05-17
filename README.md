@@ -17,7 +17,7 @@ You can see the [PDF](https://raw.githubusercontent.com/g-amador/Curriculum-Vita
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/sample/cv-1.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/sample/cv-1.png) | [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/sample/cv-2.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/sample/cv-2.png) |
+| [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-1.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-1.png) | [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-2.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-2.png) |
 
 ## <a name="how-to-use">How to Use
 
