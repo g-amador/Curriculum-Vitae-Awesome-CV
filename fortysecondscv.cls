@@ -50,6 +50,11 @@
 ]{geometry}
 
 % pre-define some colors the user can choose from
+\definecolor{skgreen}{HTML}{1E8449}      
+\definecolor{sklimegreen}{HTML}{28B463}  
+\definecolor{skyellow}{HTML}{D4AC0D}     
+\definecolor{skorange}{HTML}{CA6F1E}     
+\definecolor{skred}{HTML}{CB4335}        
 \definecolor{cvblue}{HTML}{0E5484}
 \definecolor{cvgreen}{HTML}{007170}
 \definecolor{cvred}{HTML}{8B0000}
@@ -58,6 +63,7 @@
 \definecolor{cvsubsectioncolor}{HTML}{4D4D4D}
 % set default values
 \colorlet{maincolor}{cvblue}
+\colorlet{secondarycolor}{cvgreen}
 \colorlet{sidecolor}{cvsidecolor}
 \colorlet{sectioncolor}{cvsectioncolor}
 \colorlet{subsectioncolor}{cvsubsectioncolor}
@@ -65,6 +71,7 @@
 % colors for document body (right column)
 % let user define main color
 \DeclareOptionX{maincolor}{\colorlet{maincolor}{#1}}
+\DeclareOptionX{secondarycolor}{\colorlet{secondarycolor}{#1}}
 \DeclareOptionX{sidecolor}{\colorlet{sidecolor}{#1}}
 \DeclareOptionX{sectioncolor}{\colorlet{sectioncolor}{#1}}
 \DeclareOptionX{subsectioncolor}{\colorlet{subsectioncolor}{#1}}
@@ -207,7 +214,7 @@
 %                          DERIVED COLOR DEFINITIONS
 %-------------------------------------------------------------------------------
 % profile section color (sidebar/left column)
-\colorlet{pseccolor}{maincolor!90}
+\colorlet{pseccolor}{secondarycolor!90}
 % color used for all icon arguments
 \colorlet{iconcolor}{maincolor!90}
 
@@ -217,6 +224,15 @@
 % color of unfilled skill points / bar / chart label
 \colorlet{skillbg}{black!25}
 
+
+%-------------------------------------------------------------------------------
+%                          COMPANY LOGO SUPPORT
+%-------------------------------------------------------------------------------
+% Usage: \companylogo{filename.ext}
+% Looks for logos inside assets/logos/
+\newcommand{\companylogo}[1]{%
+    \includegraphics[height=1.5cm,align=c]{assets/logos/#1}%
+}
 
 %-------------------------------------------------------------------------------
 %                      GLOBAL LAYOUT AND HEADINGS STYLE
@@ -295,11 +311,11 @@
 % useful shortcuts
 % NOTE: we use href instead of url so user can decide textformatting since url
 % automatically uses \texttt{} as format for the url
-\newcommand*{\cvbirthday}[1]{\cvcustomdata{\faUser}{#1}}
-\newcommand*{\cvaddress}[1]{\cvcustomdata{\faEnvelope}{#1}}
+\newcommand*{\cvbirthday}[1]{\cvcustomdata{\faBirthdayCake}{#1}}
+\newcommand*{\cvaddress}[1]{\cvcustomdata{\faHome}{#1}}
 \newcommand*{\cvphone}[1]{\cvcustomdata{\faPhone}{#1}}
 \newcommand*{\cvsite}[1]{\cvcustomdata{\faGlobe}{\href{#1}{#1}}}
-\newcommand*{\cvmail}[1]{\cvcustomdata{\faAt}{\href{mailto:#1}{#1}}}
+\newcommand*{\cvmail}[1]{\cvcustomdata{\faEnvelope}{\href{mailto:#1}{#1}}}
 \newcommand*{\cvkey}[2]{\cvcustomdata{\faKey}{%
 	\href{https://keyserver.ubuntu.com/pks/lookup?search=#2\&op=vindex\&fingerprint=on}{#1}%
 }}

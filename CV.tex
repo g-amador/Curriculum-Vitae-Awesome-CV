@@ -27,12 +27,13 @@
 	a4paper,
 	% showframes,
 	% vline=2.2em,
-	% maincolor=cvgreen,
+	% maincolor=cvgreen
+    % secondarycolor=cvred
 	% sidecolor=gray!50,
 	% sectioncolor=red,
 	% subsectioncolor=orange,
 	% itemtextcolor=black!80,
-	% sidebarwidth=0.4\paperwidth,
+	  % sidebarwidth=0.34\paperwidth,
 	% topbottommargin=0.03\paperheight,
 	% leftrightmargin=20pt,
 	% profilepicsize=4.5cm,
@@ -65,9 +66,6 @@
 % enable mathematical syntax for some symbols like \varnothing
 \usepackage{amssymb}
 
-% enable colors
-\usepackage{xcolor}
-
 % bubble diagram configuration
 \usepackage{smartdiagram}
 \smartdiagramset{
@@ -93,7 +91,8 @@
 %-------------------------------------------------------------------------------
 %% mandatory information
 % your name
-\cvname{Gonçalo N. Paiva Amador}
+\cvname{Gonçalo N. \\Paiva Amador}
+%\cvname{Gonçalo Amador}
 % job title/career
 \cvjobtitle{Full-Stack Developer,\\[0.2em] Tech Lead}
 
@@ -103,7 +102,7 @@
 
 % NOTE: ordering in sidebar will mimic the following order
 % date of birth
-\cvbirthday{\today}
+%\cvbirthday{July 27, 1983}
 % short address/location, use \newline if more than 1 line is required
 %\cvaddress{Rua Antero de Quental, nr.º 7 RC, ESQ, 2700-060, Amadora, Portugal}
 \cvaddress{Lisbon, Portugal}
@@ -123,14 +122,10 @@
 %-------------------------------------------------------------------------------
 % add more profile sections to sidebar on first page
 \addtofrontsidebar{
-	% include gosquare national flags from https://github.com/gosquared/flags;
-	% naming according to ISO 3166-1 alpha-2 country codes
-	\graphicspath{{assets/flags/}}
-
 	% social network accounts incl. proper hyperlinks
-	\profilesection{Social Network}
+	\profilesection{\faLink\;Links}
 		\begin{icontable}{2.0em}{1em}
-			\social{\faLinkedinSquare}
+			\social{\faLinkedin}
 				{https://www.linkedin.com/in/g-amador}
 				{/in/g-amador}
             \social{\textcolor{black}{\faGithub}}
@@ -139,25 +134,72 @@
             \social{\textcolor{black}{\faGraduationCap}}
 				{https://scholar.google.com/citations?user=SV2TZDkAAAAJ}
 				{Google Scholar}
-		\end{icontable}
+		\end{icontable}	
 
-	\profilesection{Languages}
-    \skill[0.1em]{\flag{PT.png}}{Portuguese\quad\quad Native}
-    \skill[0.1em]{\flag{GB.png}}{English\quad\quad\quad\;\; C2}
-    \skill[0.1em]{\flag{FR.png}}{French \quad\quad\quad\;\; A2}
-    \skill[0.1em]{\flag{ES.png}}{Spanish\quad\quad\quad\; A2}
-
-	\profilesection{Hard Skills}
-		\skill{\faBalanceScale}{Sleeping almost all day}
-		\skill{\faSitemap}{Eating a lot of bamboo sprouts}
-		\skill{\faGraduationCap}{Relaxing rest of the day}
-
-	\profilesection{Soft Skills}
-		\pointskill{\faHome}{Looking Cute}{4}[4]
-			\skill[1.8em]{\faCompress}{No need to specify further}
-		\pointskill{\faChild}{Chillin' hard}{3}[4]
-			\skill[1.8em]{\faCompress}{On a tree}
-			\skill[1.8em]{\faCompress}{In the grass}
+	\profilesection{\faLaptop\;Hard Skills}
+        % --- 5 DOTS (skgreen) ---
+        {
+            \colorlet{iconcolor}{skgreen}
+            \pointskill{{\textcolor{skgreen}{\faCloud}}}{\textcolor{skgreen}{ASP.NET Core Web API \\(.NET Core 3+)}}{5}[5]
+        }
+        {
+            \colorlet{iconcolor}{skgreen}
+            \pointskill{{\textcolor{skgreen}{\faAngular}}}{\textcolor{skgreen}{Angular}}{5}[5]
+        }
+        
+        % --- 4 DOTS (sklimegreen) ---
+        {
+            \colorlet{iconcolor}{sklimegreen}
+            \pointskill{{\textcolor{sklimegreen}{\faCode}}}{\textcolor{sklimegreen}{Blazor (.NET 8+)}}{4}[5]
+        }
+        {
+            \colorlet{iconcolor}{sklimegreen}
+            \pointskill{{\textcolor{sklimegreen}{\faDatabase}}}{\textcolor{sklimegreen}{SQL Server (T-SQL)}}{4}[5]
+        }
+        {
+            \colorlet{iconcolor}{sklimegreen}
+            \pointskill{{\textcolor{sklimegreen}{\faCodeBranch}}}{\textcolor{sklimegreen}{Azure DevOps (CI/CD), \\Git, Postman, \\Jira, Confluence}}{4}[5]
+        }
+        
+        % --- 3 DOTS (skyellow) ---
+        {
+            \colorlet{iconcolor}{skyellow}
+            \pointskill{{\textcolor{skyellow}{\faCubes}}}{\textcolor{skyellow}{Azure + Azure OpenAI}}{3}[5]
+        }
+        {
+            \colorlet{iconcolor}{skyellow}
+            \pointskill{{\textcolor{skyellow}{\faPython}}}{\textcolor{skyellow}{FastAPI, REST/OpenAPI \\(Swagger, ReDoc, Scalar)}}{3}[5]
+        }
+        {
+            \colorlet{iconcolor}{skyellow}
+            \pointskill{{\textcolor{skyellow}{\faServer}}}{\textcolor{skyellow}{ASP.NET Framework 4.x \\(MVC, Razor), IIS (6+)}}{3}[5]
+        }
+        {
+            \colorlet{iconcolor}{skyellow}
+            \pointskill{{\textcolor{skyellow}{\faChartBar}}}{\textcolor{skyellow}{SSRS, Power BI}}{3}[5]
+        }
+        %{
+        %    \colorlet{iconcolor}{skyellow}
+        %    \pointskill{{\textcolor{skyellow}{\faVuejs}}}{\textcolor{skyellow}{Vue.js}}{3}[5]
+        %}
+        {
+            \colorlet{iconcolor}{skyellow}
+            \pointskill{{\textcolor{skyellow}{\faJava}}}{\textcolor{skyellow}{Java, PL/SQL}}{3}[5]
+        }
+        
+        % --- 2 DOTS (skorange) ---
+        {
+            \colorlet{iconcolor}{skorange}
+            \pointskill{{\textcolor{skorange}{\faReact}}}{\textcolor{skorange}{React Native}}{2}[5]
+        }
+        {
+            \colorlet{iconcolor}{skorange}
+            \pointskill{{\textcolor{skorange}{\faCode}}}{\textcolor{skorange}{ASP Classic}}{2}[5]
+        }
+        {
+            \colorlet{iconcolor}{skorange}
+            \pointskill{{\textcolor{skorange}{\faMicrochip}}}{\textcolor{skorange}{CUDA/OpenMP/OpenCL \\(academic only)}}{2}[5]
+        }
 }
 
 
@@ -165,57 +207,106 @@
 %                              SIDEBAR 2nd PAGE
 %-------------------------------------------------------------------------------
 \addtobacksidebar{
-	\profilesection{About Me}
-	\aboutme{
-		The giant panda is a terrestrial animal and primarily spends its life
-		roaming and feeding in the bamboo forests of the Qinling Mountains and in
-		the hilly province of Sichuan.
-	}
+	% include gosquare national flags from https://github.com/gosquared/flags;
+	% naming according to ISO 3166-1 alpha-2 country codes
+	\graphicspath{{assets/flags/}}
 
-	\profilesection{Diagrams}
-	\begin{sidebarminipage}
-		\chartlabel{Bubble}
-		\chartlabel{Diagrams}
-		\chartlabel{with}
-		\chartlabel{proper}
-		\chartlabel{overflow}
-		\chartlabel{protection}
-		\chartlabel{for}
-		\chartlabel{labels}
-	\end{sidebarminipage}
+    \profilesection{\faUsers\;Soft Skills}    
+        {
+            \colorlet{iconcolor}{skgreen}
+            \pointskill{{\textcolor{skgreen}{\faPuzzlePiece}}}
+                       {\textcolor{skgreen}{Problem solving}}
+                       {5}[5]
+        }
+        
+        {
+            \colorlet{iconcolor}{sklimegreen}
+            \pointskill{{\textcolor{sklimegreen}{\faComments}}}
+                       {\textcolor{sklimegreen}{Tech communication}}
+                       {4}[5]
+        }
+        {
+            \colorlet{iconcolor}{sklimegreen}
+            \pointskill{{\textcolor{sklimegreen}{\faSitemap}}}
+                       {\textcolor{sklimegreen}{System design}}
+                       {4}[5]
+        }
+        {
+            \colorlet{iconcolor}{sklimegreen}
+            \pointskill{{\textcolor{sklimegreen}{\faCheckCircle}}}
+                       {\textcolor{sklimegreen}{Ownership \& delivery}}
+                       {4}[5]
+        }
 
-	\begin{figure}\centering
-		\smartdiagram[bubble diagram]{
-			\textcolor{white}{\textbf{Being a}} \\
-			\textcolor{white}{\textbf{Panda}}, % center bubble
-			\textcolor{black!90}{Eating},
-			\textcolor{black!90}{Sleeping},
-			\textcolor{black!90}{Rolling},
-			\textcolor{black!90}{Playing},
-			\textcolor{black!90}{Chilling}
-		}
-	\end{figure}
+    \profilesection{\faLanguage\;Languages}
+        \skill[0.1em]{\flag{PT.png}}{Portuguese\quad\quad\quad\quad\quad\; Native}
+        \skill[0.1em]{\flag{GB.png}}{English\quad\quad\quad\quad\quad\quad\;\;\;\; C2}
+        \skill[0.1em]{\flag{FR.png}}{French \quad\quad\quad\quad\quad\quad\;\;\;\; A2}
+        \skill[0.1em]{\flag{ES.png}}{Spanish\quad\quad\quad\quad\quad\quad\;\;\; A2}
 
-	\chartlabel{Wheel Chart}
+    \profilesection{\faHeart\;Interests}
+        \skill[0.1em]{\faGamepad}{Video games \& gamification}
+        \skill[0.1em]{\faLaptopCode}{Personal software projects}
+        \skill[0.1em]{\faMicrochip}{Personal hardware \& prototyping projects}
+        \skill[0.1em]{\faMapMarked}{Cultural exploration (monuments \& travel)}
+        \skill[0.1em]{\faWalking}{Long walks \& outdoor activities}
 
-	\wheelchart{3.7em}{2em}{%
-	20/3em/maincolor!50/Chill,
-	15/3em/maincolor!15/Play,
-	30/4em/maincolor!40/Sleep,
-	20/3em/maincolor!20/Eat
-	}
+    \profilesection{\faInfo\;Other Info}
+        \skill[0.1em]{\faBook}{\textbf{Research:} 13 publications \\(4 journals, 9 conferences)}
+        \skill[0.1em]{\faMicrophone}{\textbf{Speaker:} 9 keynote talks at \\technical events}
+        \skill[0.1em]{\faIdCard}{\textbf{Driving licence:} B1/B}
 
-	\profilesection{Barskills}
-	\barskill{\faSkyatlas}{Wearing asian rice hats}{60}
-	\barskill{\faImage}{Playing Chess}{30}
-	\barskill{\faMusic}{Playing the bamboo flute}{50}
+	%\profilesection{About Me}
+	%\aboutme{
+	%	The giant panda is a terrestrial animal and primarily spends its life
+	%	roaming and feeding in the bamboo forests of the Qinling Mountains and in
+	%	the hilly province of Sichuan.
+	%}
 
-	\profilesection{Memberships}
-	\begin{memberships}
-		\membership[4em]{assets/logo.png}{PandaScience.net}
-		\membership[4em]{assets/logo.png}{Some longer text spanning over more than
-			only one line}
-	\end{memberships}
+	%\profilesection{Diagrams}
+	%\begin{sidebarminipage}
+	%	\chartlabel{Bubble}
+	%	\chartlabel{Diagrams}
+	%	\chartlabel{with}
+	%	\chartlabel{proper}
+	%	\chartlabel{overflow}
+	%	\chartlabel{protection}
+	%	\chartlabel{for}
+	%	\chartlabel{labels}
+	%\end{sidebarminipage}
+
+	%\begin{figure}\centering
+	%	\smartdiagram[bubble diagram]{
+	%		\textcolor{white}{\textbf{Being a}} \\
+	%		\textcolor{white}{\textbf{Panda}}, % center bubble
+	%		\textcolor{black!90}{Eating},
+	%		\textcolor{black!90}{Sleeping},
+	%		\textcolor{black!90}{Rolling},
+	%		\textcolor{black!90}{Playing},
+	%		\textcolor{black!90}{Chilling}
+	%	}
+	%\end{figure}
+
+	%\chartlabel{Wheel Chart}
+
+	%\wheelchart{3.7em}{2em}{%
+	%20/3em/maincolor!50/Chill,
+	%15/3em/maincolor!15/Play,
+	%30/4em/maincolor!40/Sleep,
+	%20/3em/maincolor!20/Eat
+	%}
+
+	%\profilesection{Barskills}
+	%\barskill{\faSkyatlas}{Wearing asian rice hats}{60}
+	%\barskill{\faImage}{Playing Chess}{30}
+	%\barskill{\faMusic}{Playing the bamboo flute}{50}
+
+	%\profilesection{Memberships}
+	%\begin{memberships}
+	%	\membership[4em]{assets/logo.png}{PandaScience.net}
+	%	\membership[4em]{assets/logo.png}{Some longer text spanning over more than
+	%		only one line}
+	%\end{memberships}
 }
 
 
@@ -226,18 +317,138 @@
 
 \makefrontsidebar
 
-\cvsection{Working Experience}
+\cvsection{\faUserTie\;Professional Summary}
+Software Engineer with strong expertise in .NET, Azure, and API‑driven architectures. Experienced Team Lead and primary technical contact for multiple clients, supporting planning, debugging, and delivery of critical systems. Former Researcher and Instructor with a solid academic background in Computer Science & Engineering.
+
+\cvsection{\faBriefcase\;Professional Experience}
 \begin{cvtable}[3]
-	\cvitem{currently}{CEO The Panda Way}{Start Up}{Chief executive officer, Head
-		developer and yoga ambassador of 'The Panda Way' - A company from pandas
-		for pandas.}
-	\cvitem{2015 -- 2018}{Panda Scientist}{Bamboo University}{
-		Reasearching the impact of adequate bamboo nutrition compared to
-		conventional feeding methods.}
-	\cvitem{2010 -- 2015}{Bamboo Broker}{Stock Exchange}{Continuously achieving
-		better bamboo bangs for the buck.}
+
+    % --- AMARIS (merged progression) ---
+    \cvitem{Apr 2021 \\ Present}
+        {Full-Stack Developer\\ → Team Lead → Tech Lead}
+        {Amaris · Enterprise Financial Systems}
+        {
+        \\[-0.3em]
+        Led full‑stack development, system integration, and modernization of enterprise platforms. 
+         Delivered AI‑enabled services, improved architecture, and served as primary technical contact.
+         \newline \textbf{Stack:} 
+         {\color{skgreen}ASP.NET Core Web API},
+         {\color{skgreen}Angular}, 
+         {\color{sklimegreen}Blazor},
+         {\color{sklimegreen}SQL Server (T‑SQL)}, 
+         {\color{sklimegreen}Azure DevOps (CI/CD)}, 
+         {\color{sklimegreen}Git}, 
+         {\color{sklimegreen}Postman},
+         {\color{sklimegreen}Jira},
+         {\color{sklimegreen}Confluence},
+         {\color{skyellow}Azure + Azure OpenAI},
+         {\color{skyellow}FastAPI, REST/OpenAPI}, 
+         {\color{skyellow}ASP.NET Framework (MVC, Razor)},
+         {\color{skyellow}IIS},
+         {\color{skyellow}SSRS, Power BI},
+         {\color{skorange}ASP Classic}}
+
+    % --- AXIANS ---
+    \cvitem{Aug 2020 \\ Apr 2021}
+        {Support Engineer · Cloud Services}
+        {Axians Portugal}
+        {Resolved incidents and ensured stability of cloud-based media and communication services.
+         \newline \textbf{Stack:} 
+         {\color{sklimegreen}SQL Server (T‑SQL)},
+         {\color{skyellow}Azure},
+         {\color{skyellow}IIS},
+         {\color{skorange}React Native}}
+
+    % --- AMARIS (ASP Classic) ---
+    \cvitem{Jul 2019 \\ May 2020}
+        {ASP Classic Developer}
+        {Amaris · Enterprise Financial Systems}
+        {Maintained financial applications and optimized database queries to support stable system operation.
+         \newline \textbf{Stack:} 
+         {\color{sklimegreen}SQL Server (T‑SQL)},
+         {\color{skorange}ASP Classic}}
+
+    % --- AMARIS (Java / PL-SQL) ---
+    \cvitem{Jan 2019 \\ Jun 2019}
+        {Java Developer · Data Migration}
+        {Amaris · Enterprise Financial Systems}
+        {Supported enhancements to existing systems and reviewed PL/SQL migration scripts for inter‑bank data transfer.
+         \newline \textbf{Stack:} 
+         {\color{skyellow}Java}, 
+         {\color{skyellow}PL/SQL}}
+
+    % --- TECHNICAL ACCOUNT MANAGER ---
+    \cvitem{Feb 2018 \\ Dec 2018}
+        {Technical Account Manager}
+        {Amaris · Gamification \& WFM}
+        {Supported deployments, onboarding, workflow setup, and technical operations.
+         \newline \textbf{Stack:} 
+         {\color{sklimegreen}SQL Server (T‑SQL)}, 
+         {\color{sklimegreen}Azure DevOps (CI/CD)}, 
+         {\color{skyellow}REST/OpenAPI},
+         {\color{skyellow}IIS}, 
+         {\color{skyellow}SRSS, Power BI}}
+
+    % --- REDIT ---
+    \cvitem{Jul 2017 \\ Jan 2018}
+        {Software Engineer}
+        {RedIT · Energy, Social/Health \& Enterprise Systems}
+        {Developed and maintained large‑scale model‑based systems.
+         \newline \textbf{Stack:} 
+         {\color{skgreen}Angular}, 
+         {\color{sklimegreen}SQL Server (T‑SQL)}, 
+         {\color{skyellow}ASP.NET Framework (MVC, Razor), IIS}, 
+         {\color{skyellow}PL‑SQL}}
+
+    % --- PHD RESEARCH ---
+    \cvitem{Jan 2013 \\ Dec 2016}
+        {Researcher · Game Engines \& AI}
+        {FCT · Universidade da Beira Interior}
+        {PhD grant holder under the reference 
+         \textit{SFRH/BD/86533/2012}, researching game engine architecture and hybrid pathfinding algorithms.
+         Published and presented work in academic venues.
+         \newline \textbf{Stack:}
+         {\color{sklimegreen}LaTeX},
+         {\color{skyellow}Java},
+         {\color{skorange}C/C++}, 
+         {\color{skorange}OpenGL},
+         {\color{skorange}CUDA/OpenMP/OpenCL}}    
+
+    % --- LAB INSTRUCTOR ---
+    \cvitem{Jan 2012 \\ Jul 2016}
+        {Lab Instructor · Game Tech \& Graphics}
+        {Universidade da Beira Interior}
+        {Delivered lab sessions and supervised student projects.
+         \newline \textbf{Stack:} 
+         {\color{sklimegreen}LaTeX},
+         {\color{skyellow}Java},   
+         {\color{skorange}C/C++},
+         {\color{skorange}OpenGL}}
+
+    % --- MMO ENGINE RESEARCH ---
+    % --- EDUCATIONAL TECH ---
+    \cvitem{Jul 2007 \\ Dec 2011}
+        {Researcher}
+        {Instituto de Telecomunicações · Universidade da Beira Interior}
+        {Contributed to funded research projects, including:
+         \newline — \textit{PTDC/EIA/70830/2006 — MOGGY}: developed components for a browser‑based MMO engine focused on distributed systems.
+         \newline — \textit{POCI/V/04.01302/0155/0002/2006}: created interactive learning materials and visualization‑driven mathematical resources.
+         \newline \textbf{Technologies:}
+         {\color{sklimegreen}LaTeX},
+         {\color{skyellow}Java}, 
+         {\color{skorange}C/C++}, 
+         {\color{skorange}OpenGL}}
+    
 \end{cvtable}
 
+\newpage
+\makebacksidebar
+% \newgeometry{
+% 	top=\topbottommargin,
+% 	bottom=\topbottommargin,
+% 	right=\leftrightmargin,
+% 	left=\leftrightmargin
+% }
 
 \cvsection{Education}
 \cvsubsection{Postgraduate Training}
@@ -288,16 +499,6 @@
 	\cvitemshort{Music}{Playing the bamboo flute in the 1st Panda Orchestra}
 	\cvitemshort{Education}{Teaching young pandas to be more panda-like}
 \end{cvtable}
-
-
-\newpage
-\makebacksidebar
-% \newgeometry{
-% 	top=\topbottommargin,
-% 	bottom=\topbottommargin,
-% 	right=\leftrightmargin,
-% 	left=\leftrightmargin
-% }
 
 \cvsection{section}
 \cvsubsection{Subsection}
