@@ -1,7 +1,7 @@
 # 📄 Overleaf‑CV
 My personal Curriculum Vitae (CV) made using Overleaf.
 
-## 📘 Table of Contents
+## 📘 Table of Contents(#toc)
 * [🖼 Preview](#preview)
 * [⚙️ How to Use](#how-to-use)
 * [🏅 Credit](#credit)
