@@ -1,36 +1,27 @@
-# Awesome CV [![Example](https://img.shields.io/badge/example-pdf-green.svg)]
+# 📄 Overleaf‑CV
+My personal Curriculum Vitae (CV) made using [Overleaf](https://www.overleaf.com/).
 
+## 📘 Table of Contents(#toc)
+* [🖼 Preview](#preview)
+* [⚙️ How to Use](#how-to-use)
+* [🏅 Credit](#credit)
+* [📨 Contact](#contact)
 
-A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) for my own Résumé and generic cover letter.
+---
 
+## 🖼 Preview <a name="preview"></a>
 
-## Table of contents
+You can see the [PDF](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/CV.pdf)
 
-* [Preview](#preview)
-* [How to Use](#how-to-use)
-* [Credit](#credit)
-* [Contact](#contact)
-
-
-## <a name="preview"></a>Preview
-
-#### Résumé
-
-You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume.pdf)
-
-| Page. 1 | Page. 2 | Page. 3 | Page. 4 |
-|:---:|:---:|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-3.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-3.png) |
-
-#### Cover letter
-
-You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter.pdf)
-
-| With Photo | Without Photo |
+| Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png) |
+| [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-1.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-1.png) | [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-2.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-2.png) |
 
-## <a name="how-to-use">How to Use
+[Back to Table of contents](#toc)
+
+---
+
+## ⚙️ How to Use <a name="how-to-use"></a>
 
 #### Requirements
 
@@ -47,22 +38,39 @@ $ xelatex {your-cv}.tex
 
 This should result in the creation of ``{your-cv}.pdf``
 
+[Back to Table of contents](#toc)
 
-## <a name="credit">Credit
+---
+
+## 🏅 Credit <a name="credit"></a>
 
 [**LaTeX**](http://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
 
 [**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
 
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
+[Back to Table of contents](#toc)
 
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
+---
 
+## 📬 Contact & Usage Notice <a name="contact"></a>
 
-## <a name="contact">Contact
+Curriculum Vitae in LaTex is released under the MIT License, which allows you to freely use, modify, distribute, 
+and build upon the project — including creating your own Curriculum Vitae in LaTeX.
 
-You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
+Please keep the following in mind:
 
-If you have any questions, feel free to e-mail me at [gmail](mailto://g.n.p.amador@gmail.com) and ask away.
+- You may use this project freely in personal and professional contexts, provided the original license terms are respected.
+- You may not claim authorship of this repository or its original template design.
+- If you extend, adapt, or build upon this template, I would genuinely appreciate hearing about it — it’s always great to see how others improve and reuse the work.
 
-Good luck!
+For full legal details, please refer to the **LICENSE** file included with the project.
+
+If you have questions, suggestions, or want to share your work, feel free to reach out:
+
+📧 **[g.n.p.amador@gmail.com](mailto:g.n.p.amador@gmail.com)**
+
+Good luck, and enjoy building your own CV!
+
+[Back to Table of contents](#toc)
+
+---
