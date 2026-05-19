@@ -74,3 +74,5 @@ Good luck, and enjoy building your own CV!
 [Back to Table of contents](#toc)
 
 ---
+
+> Built with ❤️, [Overleaf](https://www.overleaf.com/)… and a sprinkle of Copilot magic.
