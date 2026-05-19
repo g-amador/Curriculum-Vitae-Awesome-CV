@@ -1,17 +1,15 @@
-# Overleaf-CV
-My personal Curriculum Vitae (CV) made using Overleaf and several Overleaf CV templates.
+# 📄 Overleaf‑CV
+My personal Curriculum Vitae (CV) made using Overleaf.
 
-## Table of contents
+## 📘 Table of Contents
+* [🖼 Preview](#preview)
+* [⚙️ How to Use](#how-to-use)
+* [🏅 Credit](#credit)
+* [📨 Contact](#contact)
 
-* [Preview](#preview)
-* [How to Use](#how-to-use)
-* [Credit](#credit)
-* [Contact](#contact)
+---
 
-
-## <a name="preview"></a>Preview
-
-#### Curriculum Vitae
+## 🖼 Preview <a name="preview"></a>
 
 You can see the [PDF](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/CV.pdf)
 
@@ -19,7 +17,11 @@ You can see the [PDF](https://raw.githubusercontent.com/g-amador/Curriculum-Vita
 |:---:|:---:|
 | [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-1.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-1.png) | [![Curriculum Vitae](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-2.png)](https://raw.githubusercontent.com/g-amador/Curriculum-Vitae-in-LaTex/Overleaf-CV/assets/samples/cv-2.png) |
 
-## <a name="how-to-use">How to Use
+[Back to Table of contents](#toc)
+
+---
+
+## ⚙️ How to Use <a name="how-to-use"></a>
 
 #### Requirements
 
@@ -36,19 +38,21 @@ $ xelatex {your-cv}.tex
 
 This should result in the creation of ``{your-cv}.pdf``
 
+[Back to Table of contents](#toc)
 
-## <a name="credit">Credit
+---
+
+## 🏅 Credit <a name="credit"></a>
 
 [**LaTeX**](http://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
 
 [**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
 
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
+[Back to Table of contents](#toc)
 
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
+---
 
-
-## 📄 <a name="contact">Contact & Usage Notice
+## 📬 Contact & Usage Notice <a name="contact"></a>
 
 Curriculum Vitae in LaTex is released under the MIT License, which allows you to freely use, modify, distribute, 
 and build upon the project — including creating your own Curriculum Vitae in LaTeX.
