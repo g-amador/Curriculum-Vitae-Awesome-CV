@@ -691,4 +691,10 @@
 	}\\
 }
 
+\newcommand{\badgebox}[1]{%
+  \parbox[c][2.4cm][c]{2.4cm}{\centering
+    \includegraphics[height=2.4cm, keepaspectratio]{#1}
+  }%
+}
+
 % EOF - fortysecondscv.cls
