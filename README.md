@@ -1,4 +1,4 @@
-# Awesome CV [![Example](https://img.shields.io/badge/example-pdf-green.svg)]
+# 📄 Awesome CV [![Example](https://img.shields.io/badge/example-pdf-green.svg)]
 
 
 A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) for my own Résumé and generic cover letter.
