@@ -1,0 +1,164 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+\usepackage{footmisc}
+\renewcommand*{\footnotelayout}{\bodyfontlight\slshape\color{gray}}
+
+
+% Configure page margins with geometry
+\geometry{left=2cm, top=2cm, right=2cm, bottom=2cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+%\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+%\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+
+\name{Orlando}{ Pereira}
+\address{Dombresson, Switzerland~~-~~Nationality: Portuguese}
+\mobile{(+351) 965 038 659} 
+\email{orepereira@gmail.com}
+\linkedin{orepereira}
+\skype{orepereira}
+
+
+
+\quote{``If you can't explain it simply, you don't understand it well enough."\\Albert Einstein}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Justine-Hazel Stäuble}
+  {experis.ch}
+  %{Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+
+% The title of the letter
+\lettertitle{Job Application for Technical Software Team Leader (J356923AJSB-181116)}
+%\lettertitle{Job Application for Software Engineer}
+
+% How the letter is opened
+%\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{Dear Hiring Manager,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Orlando Pereira~~~-~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+%\cvsection{About Me}
+%\cvsection{Why Google?}
+%As a Project Manager at my previous jobs 
+
+Through a leadership position at my previous jobs
+(\href{http://edgeinnovation.eu}{Edge Innovation} and \href{http://www.enear.co}{E.Near, Nearshore Technology Solutions}),
+I had accountability for the design, implementation, and execution of multi-thousands euros turnkey projects.
+Specifically, I had to supervise the entire technical and technological components of all projects.
+
+
+During that time, I successfully led more than 5 parallel projects through all development phases from initial 
+conception through completion within targeted cost, schedule, and goals.
+In addition to managing and supervising teams, I also had to participate in the actual development process as an active developer.
+In short, I have proven organizational leadership and decision-making skills that can make an immediate contribution to your operations and business development.
+
+
+%\cvsection{Why Me?}
+
+Some of the qualities and credentials I have to offer are:
+\begin{itemize}
+	\item MSc, and PhD\footnote{Waiting for the public defense.} in Computer Science and Engineering.
+	\item 10+ years of professional experience, including 2 in project management and simultaneously in team-leadership, plus 6+ as a full stack developer.
+	\item Expertise in several programming languages, more relevantly, Java (J2EE and J2ME), Objective-C, C, C++, C\#, Swift, and Python.
+	\item In-depth knowledge of distributed, parallel, and cloud computational systems, including its communication formats and standards (XML, JSON, SOAP, REST, etc).
+	\item Team-focused leader and motivator.	
+	\item Expertise in several multidisciplinary technologies (iOS, Android, Unity, Java Swing).
+	\item Creative and proactive troubleshooter and problem solver.
+\end{itemize}
+
+
+
+% final words
+Please find my résumé attached. 
+An interview would allow me to provide more information about myself and how we could mutually benefit each other.
+I am available by phone, email, or skype.
+Thank you very much in advance for your consideration, I look forward to hearing from you soon.
+%An interview would allow me to provide more information about myself, my multidisciplinary knowledge and explain in detail how we could mutually benefit each other.
+%  “Your opening will allow me to combine my interests in wireless networking and embedded security, and I am confident that I can facilitate major upgrades while maintaining the highest levels of security of your WiTrack product.”
+
+
+\end{cvletter}
+
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
